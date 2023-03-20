@@ -19,7 +19,7 @@ async function run(){
 
         const app = require('./app');
 
-        app.listen(8000,()=>{
+        app.listen(process.env.PORT,()=>{
             console.log("server listening at 8000");
         })
  
